@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActivityIndicatorView">
+        <attr name="indicatorColor" format="color"/>
+        <attr name="delayMillis" format="integer"/>
+        <attr name="indicatorShape" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="square" value="1"/>
+            <enum name="butt" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
